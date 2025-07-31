@@ -3,10 +3,10 @@ Drug Interaction Info App
 **
  
  web application that provides users with real-time information on drug interactions and safety alerts using external APIs.
-
+        
         ✅ Deployed across a multi-container lab infrastructure (Web01, Web02, and Load Balancer Lb01) using Docker and HAProxy.
-        🔗 Live via http://localhost.
-        Features
+         🔗 Live via http://localhost.
+         Features
 💊 Search drug information and safety alerts using the OpenFDA API.
 
 🔁 Load-balanced deployment using HAProxy to serve traffic via two web servers.
@@ -62,8 +62,8 @@ ________________________________________
 1. Clone the Repository
 ```bash
 git clone https://github.com/Nzabinesha/drug-info-app.git
-```
 cd drug-info-app
+```
 3. Build Docker Image
 
 ```bash
@@ -135,8 +135,6 @@ The app assumes your frontend is served by nginx or another lightweight web serv
 
 🔐 Notes
 This app currently runs on localhost via Docker.
-
-To expose externally, you will need a public IP, domain, or a cloud server with Docker installed.
 
 Make sure Docker is installed and running on your host system.
 
