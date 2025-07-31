@@ -1,17 +1,50 @@
-# 💊 Smart Drug Info App
-A lightweight web application that uses the FDA Drug Label API to provide verified information about medications. This app is containerized using Docker and deployed with a HAProxy load balancer.
+A web application that provides users with real-time information on drug interactions and safety alerts using external APIs.
 
-📦 Features
-✅ User-friendly web interface for drug lookup
+✅ Deployed across a multi-container lab infrastructure (Web01, Web02, and Load Balancer Lb01) using Docker and HAProxy.
+🔗 Live via http://localhost.
+Features
+💊 Search drug information and safety alerts using the OpenFDA API.
 
-✅ Personalized user experience based on basic health data
+🔁 Load-balanced deployment using HAProxy to serve traffic via two web servers.
 
-✅ Backend powered by the FDA API
+🔎 Users can search, filter, and view details about specific drugs.
 
-✅ Load balanced across multiple Docker containers using HAProxy
+🛡️ Includes error handling for API failures and no-result queries.
+
+🌐 Deployed using Docker and Docker Hub on a multi-container lab setup.
+
+🔧 Technologies Used
+Frontend: HTML, CSS, JavaScript
+
+Backend/API: OpenFDA (REST API)
+
+Containerization: Docker
+
+Load Balancing: HAProxy
+
+Deployment: Custom local lab infrastructure (web-01, web-02, lb-01)
+
+Docker Image Details
+_________________________________
+📂 Docker Hub Repo
+•	URL: https://hub.docker.com/repository/docker/nzabineshamerci/drug-info-app/general
+•	Image Name: nzabineshamerci/drug-info-app
+•	Tags Used: v1, latest
+Image Tags:
+
+v1: Initial stable version
+
+latest: Same as v1
+
+📹 Demo Video
+🎥 Watch the 2-minute demo video  
+https://www.youtube.com/watch?v=HI5ZsXFvzHM
+
+________________________________________
+
 
 🏗️ Project Structure
-web_infra_lab/
+```bashweb_infra_lab/
 │
 ├── Dockerfile
 ├── haproxy.cfg
@@ -20,6 +53,7 @@ web_infra_lab/
 ├── script.js
 ├── app.py (if using Flask for backend logic)
 └── ...
+```
 🚀 Local Deployment (with Docker)
 1. Clone the Repository
 ```bash
