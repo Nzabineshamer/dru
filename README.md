@@ -32,8 +32,12 @@ Docker Image Details
 _________________________________
 📂 Docker Hub Repo
 •	URL: https://hub.docker.com/repository/docker/nzabineshamerci/drug-info-app/general
+
 •	Image Name: nzabineshamerci/drug-info-app
+
 •	Tags Used: v1, latest
+
+
 Image Tags:
 
 v1: Initial stable version
