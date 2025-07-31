@@ -1,7 +1,8 @@
 **
 Drug Interaction Info App
 **
-web application that provides users with real-time information on drug interactions and safety alerts using external APIs.
+ 
+ web application that provides users with real-time information on drug interactions and safety alerts using external APIs.
 
         ✅ Deployed across a multi-container lab infrastructure (Web01, Web02, and Load Balancer Lb01) using Docker and HAProxy.
         🔗 Live via http://localhost.
