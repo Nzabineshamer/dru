@@ -32,7 +32,7 @@ Docker Image Details
 _________________________________
 📂 Docker Hub Repo
 
-•	URL: https:[nzabineshamerci/drug-info-app](https://hub.docker.com/r/nzabineshamerci/drug-info-app) 
+•	URL: https:[nzabineshamerci/drug-info-app](https://hub.docker.com/repository/docker/nzabineshamerci/drug-info-app/general) 
 
 •	Image Name: nzabineshamerci/drug-info-app
 
