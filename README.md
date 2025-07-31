@@ -22,9 +22,11 @@ web_infra_lab/
 └── ...
 🚀 Local Deployment (with Docker)
 1. Clone the Repository
-```git clone https://github.com/Nzabinesha/drug-info-app.git```
+```bash
+git clone https://github.com/Nzabinesha/drug-info-app.git
+```
 cd drug-info-app
-2. Build Docker Image
+3. Build Docker Image
 
 docker build -t nzabineshamerci/drug-info-app:v1 .
 3. Create Docker Network
