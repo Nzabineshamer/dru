@@ -31,7 +31,8 @@ Deployment: Custom local lab infrastructure (web-01, web-02, lb-01)
 Docker Image Details
 _________________________________
 📂 Docker Hub Repo
-•	URL: https://hub.docker.com/repository/docker/nzabineshamerci/drug-info-app/general
+
+•	URL: https:[nzabineshamerci/drug-info-app](https://hub.docker.com/r/nzabineshamerci/drug-info-app) 
 
 •	Image Name: nzabineshamerci/drug-info-app
 
