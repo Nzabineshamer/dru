@@ -81,8 +81,13 @@ This app currently runs on localhost. You can map it to a public IP or domain if
 Ensure Docker is installed and running on your host system.
 
 The app assumes your frontend is served by nginx or another lightweight web server.
+```bash
+docker build -t my-image .
+docker run -d --name my-container my-image
+
 
 📌 Author
 Nzabinesha Merci
 Student at African Leadership University
  Software Engineering
+ 
