@@ -1,10 +1,11 @@
-**Drug Interaction Info App
+**
+Drug Interaction Info App
 **
 web application that provides users with real-time information on drug interactions and safety alerts using external APIs.
 
-✅ Deployed across a multi-container lab infrastructure (Web01, Web02, and Load Balancer Lb01) using Docker and HAProxy.
-🔗 Live via http://localhost.
-Features
+        ✅ Deployed across a multi-container lab infrastructure (Web01, Web02, and Load Balancer Lb01) using Docker and HAProxy.
+        🔗 Live via http://localhost.
+        Features
 💊 Search drug information and safety alerts using the OpenFDA API.
 
 🔁 Load-balanced deployment using HAProxy to serve traffic via two web servers.
